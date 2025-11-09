@@ -12,13 +12,13 @@ chrono = { workspace = true }
 clap = { workspace = true }
 color-eyre = { workspace = true }
 http = { workspace = true }
-qrcode = { version = "0.14.1", default-features = false, features = ["svg"] }
+qrcode = { workspace = true }
 reqwest = { workspace = true }
 rust_decimal = { workspace = true }
 serde = { workspace = true }
 serde_json = { workspace = true }
 serde_urlencoded = { workspace = true }
-serde_with = "3.15.1"
+serde_with = { workspace = true }
 tempfile = { workspace = true }
 tokio = { workspace = true }
 tokio-util = { workspace = true }
