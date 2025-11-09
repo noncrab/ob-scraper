@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["gocardless", "truelayer"]
+members = ["gocardless"]
 
 [workspace.dependencies]
 again = "0.1.2"
