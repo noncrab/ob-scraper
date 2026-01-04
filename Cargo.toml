@@ -5,7 +5,7 @@ members = ["gocardless"]
 [workspace.dependencies]
 again = "0.1.2"
 anyhow = { version = "1.0.100", features = ["backtrace"] }
-askama = { version = "0.14.0" }
+askama = { version = "0.15.0" }
 axum = { version = "0.8.7", features = ["macros"] }
 axum-extra = { version = "0.12.2", features = [] }
 chrono = { version = "0.4.42", features = ["serde"] }
