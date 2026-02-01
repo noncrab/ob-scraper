@@ -283,6 +283,7 @@ mod filters {
     use askama::{filters::Safe, Values};
     use qrcode::{render::svg, QrCode};
 
+    #[askama::filter_fn]
     pub(super) fn qrcode_svg(value: impl ToString, _: &dyn Values) -> askama::Result<Safe<String>> {
         let value = value.to_string();
 
