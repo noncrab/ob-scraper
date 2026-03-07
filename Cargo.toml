@@ -8,7 +8,7 @@ anyhow = { version = "1.0.100", features = ["backtrace"] }
 askama = { version = "0.15.0" }
 axum = { version = "0.8.8", features = ["macros"] }
 axum-extra = { version = "0.12.5", features = [] }
-chrono = { version = "0.4.43", features = ["serde"] }
+chrono = { version = "0.4.44", features = ["serde"] }
 clap = { version = "4.5.60", features = ["derive"] }
 color-eyre = "0.6.5"
 futures = "0.3.31"
